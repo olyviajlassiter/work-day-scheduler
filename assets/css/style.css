@@ -1,12 +1,17 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
+p {
+  padding: 15px;
+  margin: auto;
+  font-size: 50px;
+}
+
 textarea{
   background: transparent;
-  border: none;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
@@ -14,32 +19,35 @@ textarea{
 }
 
 .jumbotron {
+  padding: 5px;
   text-align: center;
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 2px solid black;
 }
 
 .description{
   white-space: pre-wrap;
 }
 
-.time-block{
-  text-align: center;
+
+.timeblock{
+  text-align: left;
   border-radius: 15px;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  padding: 5px;
 }
 
 .past {
